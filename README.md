@@ -9,6 +9,8 @@ It performs Creat-Read-Update-Delete commands on a database through an API.
 The API is a local server-side application running on port 3001.
 http://localhost:3001/articles.
 
+The API was created as a separate application and can be found at: https://github.com/steve981cr/articles-api
+
 To run the application first run the API's server. If using a Rails API:
 rails server -p 3001
 

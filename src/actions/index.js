@@ -8,7 +8,7 @@ export const REMOVE_ARTICLE = 'REMOVE_ARTICLE';
 export const UPDATE_ARTICLE = 'UPDATE_ARTICLE';
 export const REPLACE_ARTICLE = 'REPLACE_ARTICLE';
 
-const apiUrl = 'http://localhost:3001/articles';
+const apiUrl = 'http://localhost:3001/api/articles';
 
 export const getArticles = () => {
   return (dispatch) => {
